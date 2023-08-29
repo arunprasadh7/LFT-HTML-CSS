@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Forms</title>
+</head>
+<body>
+  <form action="signup.html" method="post" enctype="multipart/form-data">
+    <div>
+      <label for="username">UserName</label>
+      <input type="text" name="username" id="username" placeholder="Enter username" required>
+    </div>
+    <div>
+      <label for="password">Password</label>
+      <input type="password" name="password" id="password" placeholder="Enter password" required>
+    </div>
+    <div>
+      <label for="email">Email</label>
+      <input type="email" name="email" id="email">
+    </div>
+    <div>
+      <label for="dateofbirth">Date of Birth</label>
+      <input type="date" name="dateofbirth" id="dateofbirth" min="2005-01-10">
+    </div>
+    <div>
+      <label for="yearofbirth">Year of Birth</label>
+      <input type="number" name="yearofbirth" id="yearofbirth" maxlength="4"   required min="1900" max="2018" step="10">
+    </div>
+    <div>
+      <label for="about">About</label>
+      <textarea name="about" id="about" cols="30" rows="10">About me...</textarea>
+    </div>
+    <div>
+      <label for="search">Search</label>
+      <input type="search" name="search" id="search">
+    </div>
+    <div>
+      <label for="smsalert">SMS alert:</label>
+      <input type="checkbox" name="smsalert" id="smsalert">
+    </div>
+    <div>
+      <label for="emailalert">Email alert</label>
+      <input type="checkbox" name="emailalert" id="emailalert">
+    </div>
+    <div>
+      <span>Gender:</span>
+      <label for="gender">Male</label>
+      <input type="radio" name="gender" id="male" value="male">
+      <label for="gender">Female</label>
+      <input type="radio" name="gender" id="female" value="female">
+    </div>
+    <div>
+      <select name="department" id="department">
+        <option value="Mechanical">Mechanical</option>
+        <option value="CSE">CSE</option>
+        <option value="ECE">ECE</option>
+      </select>
+    </div>
+    <div>
+      <label for="telephone">Telephone</label>
+      <input type="tel" name="telephone" id="telephone">
+    </div>
+    <div>
+      <label for="color">Color picker</label>
+      <input type="color" name="color" id="color">
+    </div>
+    <div>
+      <label for="file">Resume:</label>
+      <input type="file" name="file" id="file">
+    </div>
+    <button type="">Sign Up</button>
+    <button type="reset">Reset</button>
+  </form>
+</body>
+</html>
