@@ -1,0 +1,11 @@
+h3 {
+  color: cornflowerblue;
+  color: rgb(250, 180, 110);
+  color: #778899;
+  color: hsl(100, 33%, 44%);
+  background-color: rgb(255, 0, 0, 0.3);
+}
+
+body {
+  background-color: white;
+}
