@@ -1,0 +1,62 @@
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  font-size: 1.5em;
+}
+
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2em;
+  font-weight: normal;
+  font-style: oblique;
+  font-stretch: expanded;
+  text-transform: capitalize;
+  text-decoration: underline;
+  letter-spacing: 0.2em;
+  word-spacing: 0.5em;
+  text-align: center;
+  text-shadow: 2px 2px 2px orangered, -4px -4px 5px cornflowerblue;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(85, 240, 38);
+  font-weight: bold;
+  /* display: block; */
+  text-align: center;
+  /* border: 2px solid black; */
+}
+
+.text-height {
+  line-height: 1.5em;
+  text-align: justify;
+  text-indent: 50px;
+}
+
+.text-height::first-letter {
+  font-size: 2em;
+}
+
+.text-height::first-line {
+  font-style: italic;
+}
+
+a:link {
+  color: rgb(218, 25, 137);
+}
+
+a:visited {
+  color: brown;
+}
+a:hover {
+  color: rgb(4, 61, 26);
+  text-decoration: underline;
+}
+
+a:focus {
+  background-color: lightsalmon;
+}
+
+a:active {
+  color: rgb(180, 170, 166);
+}
