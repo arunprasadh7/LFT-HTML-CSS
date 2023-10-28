@@ -1,0 +1,56 @@
+.box1 {
+  width: 200px;
+  height: 200px;
+  /* margin: auto; */
+  background: linear-gradient(red, green);
+}
+
+.box2 {
+  width: 200px;
+  height: 200px;
+  margin-top: 20px;
+  background: radial-gradient(yellow, orangered, darkred);
+}
+
+.box3 {
+  width: 200px;
+  height: 200px;
+  margin-top: 20px;
+  background: linear-gradient(to right, blue, red, yellow);
+  background: linear-gradient(to left, blue, red, yellow);
+  background: linear-gradient(to right top, blue, red, yellow);
+  background: linear-gradient(45deg, blue, red, yellow);
+  background: linear-gradient(120deg, blue, red, yellow);
+  background: radial-gradient(blue, red, yellow);
+  background: linear-gradient(blue 30%, blue, red 60%, red, yellow 10%, yellow);
+}
+
+.box4 {
+  width: 200px;
+  height: 200px;
+  margin-top: 10px;
+  background: repeating-linear-gradient(
+    blue 10px,
+    blue 20px,
+    green 10px,
+    green 30px
+  );
+}
+.box5 {
+  width: 200px;
+  height: 200px;
+  margin-top: 20px;
+  background: repeating-radial-gradient(
+    red 10px,
+    red 20px,
+    aqua 15px,
+    aqua 30px
+  );
+}
+
+.box5:hover {
+  transform: scale(0.5);
+  transition-duration: 1.5s;
+  transition-delay: 0.25s;
+  border-radius: 50%;
+}
