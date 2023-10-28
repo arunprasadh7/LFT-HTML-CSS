@@ -1,0 +1,32 @@
+.blue-box {
+  width: 300px;
+  height: 300px;
+  background-color: steelblue;
+  margin-top: 50px;
+  position: relative;
+}
+
+.yellow-box {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(243, 243, 11);
+  /* position: relative; */
+  /* bottom: 200px; */
+  /* left: 100px; */
+  position: absolute;
+  top: 100px;
+  left: 100px;
+}
+
+h3 {
+  position: relative;
+  left: 50px;
+}
+
+.yellow-box:hover {
+  background-color: darkred;
+  /* transition: 2s; */
+  transition-duration: 2s;
+  border-radius: 50%;
+  transform: scale(2);
+}
