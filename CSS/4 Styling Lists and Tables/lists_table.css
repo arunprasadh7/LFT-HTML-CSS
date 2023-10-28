@@ -1,0 +1,44 @@
+ul {
+  list-style-type: circle;
+}
+
+ol {
+  list-style-type: decimal-leading-zero;
+}
+
+.para {
+  list-style-type: disc;
+  list-style-position: inside;
+  list-style: square outside;
+}
+
+li {
+  margin: 5px;
+}
+
+table {
+  width: 300px;
+  margin: auto;
+  border-spacing: 10px 20px;
+  border-collapse: collapse;
+}
+
+th {
+  text-transform: uppercase;
+  text-align: left;
+  border-bottom: 2px solid;
+  padding: 10px;
+}
+
+td {
+  padding: 5px;
+  border: 1px solid;
+}
+
+.amt {
+  text-align: right;
+}
+
+tr:nth-child(even) {
+  background-color: aliceblue;
+}
