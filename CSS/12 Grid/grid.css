@@ -1,0 +1,22 @@
+body {
+  background-color: rgb(207, 162, 162);
+}
+
+.container {
+  display: grid;
+  /* grid-template-columns: 30% 30% 30%; */
+  /* grid-template-columns: 1fr 1fr 1fr; */
+  /* grid-template-columns: repeat(3, 1fr); */
+  /* grid-template-columns: minmax(300px, 1fr) 1fr 1fr; */
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  /* grid-template-columns: minmax(200px, 1fr) 1fr 1fr; */
+  /* column-gap: 20px; */
+  /* row-gap: 20px; */
+  gap: 20px;
+}
+
+.para {
+  padding: 1rem;
+  background-color: seagreen;
+  color: white;
+}
