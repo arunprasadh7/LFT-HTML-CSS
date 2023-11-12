@@ -1,0 +1,106 @@
+:root {
+  --yellow: #f8de22;
+  --green: #53bf9d;
+  --red: orangered;
+  --white: whitesmoke;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+.html {
+  font-size: 62.5%;
+}
+
+.landing-page {
+  background: linear-gradient(rgba(0, 0, 0, 0.9), transparent),
+    url(./assests/landing2.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  max-height: 100vh;
+}
+
+header a {
+  text-decoration: none;
+  color: var(--yellow);
+}
+
+header {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  border: 2px solid white;
+  margin-bottom: 2rem;
+}
+
+#logo {
+  flex: 3;
+  font-size: 2.4rem;
+  font-weight: bold;
+}
+
+nav {
+  flex: 2;
+  display: flex;
+  font-size: 1.5rem;
+}
+
+nav a {
+  flex: 1;
+  cursor: pointer;
+}
+
+nav a:hover {
+  color: var(--green);
+  transition-property: color;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+}
+
+.main-text {
+  border: 2px solid;
+  color: var(--white);
+  display: flex;
+  flex-direction: column;
+  height: 50vh;
+  justify-content: center;
+  padding: 2rem;
+  /* align-items: center; */
+}
+
+.main-text div {
+  margin-top: 1rem;
+}
+
+.tagline-1 {
+  color: var(--red);
+  font-size: 3.2rem;
+  font-weight: bolder;
+}
+
+.tagline-2 {
+  color: var(--yellow);
+  font-size: 2rem;
+}
+
+.main-text button {
+  width: 30vw;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 5px;
+  margin: 1rem 0;
+  cursor: pointer;
+  font-size: inherit;
+  background-color: var(--green);
+  color: var(--white);
+}
+
+.main-text button:hover {
+  background-color: #2a5f4e;
+  font-weight: bold;
+}
